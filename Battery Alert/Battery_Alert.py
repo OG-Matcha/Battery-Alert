@@ -228,29 +228,6 @@ class BatteryAlertApp(QMainWindow):
         self.close()
         QApplication.quit()
 
-
-def is_process_running(name):
-    count = 0
-    for process in psutil.process_iter(['name']):
-        if process.info['name'] == name:
-            count += 1
-    return True if count > 2 else False
-
-
-def bring_window_to_front(pid):
-    hwnd = win32gui.FindWindow(None, str(pid))
-    if hwnd:
-        win32gui.SetForegroundWindow(hwnd)
-        win32gui.ShowWindow(hwnd, win32con.SW_RESTORE)
-
-
-def open_previous_window():
-    for process in psutil.process_iter(['pid', 'name']):
-        if process.info['name'] == 'BatteryAlert.exe':
-            bring_window_to_front(process.info['pid'])
-            break
-
-
 app = QApplication([])
 window = BatteryAlertApp()
 window.show()
