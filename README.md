@@ -4,8 +4,7 @@ This is a battery alert application that notifies the user when the battery perc
 ## Installation
 To use the Battery Alert application, you must have Python 3 installed on your system.
 
-1. Clone or download the [setup](https://github.com/OG-Matcha/Battery-Alert/blob/0313d39bdd31911c2419dae962abc1f233252316/BatteryAlert.exe
-) file.
+1. Clone or download the [setup](https://github.com/OG-Matcha/Battery-Alert/blob/349397b73b22149fc0678bbf376842a508a0bb5d/Battery_Alert_setup.exe) file.
 2. Run the battery_alert.py file using Python or install the application.
 
 ## Usage
