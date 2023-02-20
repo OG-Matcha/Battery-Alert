@@ -5,7 +5,7 @@ This is a battery alert application that notifies the user when the battery perc
 
 1. Download the [setup](https://github.com/OG-Matcha/Battery-Alert/blob/349397b73b22149fc0678bbf376842a508a0bb5d/Battery_Alert_setup.exe) file.
 2. install the application.
-3. Maybe you can set put it in the startup folder to strat it when the device turn on. (If you don't know how to set it, check [here](https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd))
+3. Maybe you can put it in the startup folder to strat it when the device turn on. (If you don't know how to set it, check [here](https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd))
 
 ## Usage
 The Battery Alert application runs in the system tray and can be accessed by clicking on the application icon. The application allows users to configure the battery threshold and notification duration. It will send notification when the battery is lower than the threshold and the device is full of charge.
