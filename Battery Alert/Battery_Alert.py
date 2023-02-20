@@ -130,6 +130,7 @@ class BatteryAlertApp(QMainWindow):
         self.tray_menu.addAction(self.open_action)
         self.tray_menu.addAction(self.quit_action)
         self.tray_icon.setContextMenu(self.tray_menu)
+        self.tray_icon.setToolTip("Battery Alert")
 
         self.settings_window = None
         self.is_running = False
@@ -227,6 +228,7 @@ class BatteryAlertApp(QMainWindow):
     def end_program(self):
         self.close()
         QApplication.quit()
+
 
 app = QApplication([])
 window = BatteryAlertApp()
