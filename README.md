@@ -31,3 +31,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Idea Reference
 https://inprogrammer.com/battery-alert-python/
 
+### If you like this, please give it a star, any suggestion is welcome.
+
