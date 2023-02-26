@@ -1,5 +1,4 @@
 import psutil
-import win32gui
 import sys
 import os
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QPushButton, QGridLayout, QWidget, QLineEdit, QDialog, QSystemTrayIcon, QMenu, QAction
@@ -230,7 +229,8 @@ class BatteryAlertApp(QMainWindow):
         QApplication.quit()
 
 
-app = QApplication([])
-window = BatteryAlertApp()
-window.show()
-app.exec_()
+if __name__ == "__main__":
+    app = QApplication([])
+    window = BatteryAlertApp()
+    window.show()
+    app.exec_()
