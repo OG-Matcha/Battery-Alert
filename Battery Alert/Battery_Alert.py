@@ -72,7 +72,7 @@ class BatteryAlertSettings(QDialog):
         with open(resource_path("data\\battery_alert_config.txt"), "w+") as f:
             f.write(f"{threshold}\n{duration}")
 
-        self.hide()
+        self.close()
 
 
 class BatteryAlertApp(QMainWindow):
